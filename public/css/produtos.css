@@ -1,0 +1,73 @@
+  .cabecalho{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .catalogo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .curso-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .curso-card:hover {
+    transform: scale(1.05);
+  }
+
+  .curso-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .curso-info {
+    padding: 1rem;
+  }
+
+  .curso-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .curso-info p {
+    color: #555;
+    margin: 0.5rem 0;
+  }
+
+  .curso-info .valor {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+
+  .curso-info a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .curso-info a:hover {
+    background-color: #0056b3;
+  }
