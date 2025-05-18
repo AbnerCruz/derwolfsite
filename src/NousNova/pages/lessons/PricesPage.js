@@ -139,7 +139,8 @@ function PricesPage() {
                       <div className="prices" key={plan.id}>
                         <p style={{color: "#f0c040", fontWeight: "bold"}}>{plan.label}</p>
                         {DISCIPLINES.map(d => (
-                          <label key={`${d.key}|${plan.id}`}>                        
+                          <label key={`${d.key}|${plan.id}`}>  
+                          <div><p style={{fontSize: "1.1rem"}}>{plan.discount + (groupLesson ? 5 : 0)}% de desconto! <span style={{textDecoration: "line-through"}}>R${d.basePrice},00</span></p></div>               
                             <li style={{display:"flex"}}>
                               <input
                                 type="checkbox"
