@@ -8,7 +8,7 @@ function Sobre() {
         {/* Título Principal e Frase de Impacto */}
         <section id="title">
           <h1>Nous Nova |</h1>
-          <h3>O conhecimento é prazer, é poder, é liberdade.</h3>
+          <p style={{textAlign:"center"}}>O conhecimento é prazer, é poder, é liberdade.</p>
         </section> 
         <section>
           <h2>Quem somos</h2>
@@ -34,16 +34,16 @@ function Sobre() {
         <section>
           <h2>Valores</h2>
           <ul>
-            <li>Conhecimento pelo prazer</li>
-            <li>Autonomia e autodidatismo</li>
-            <li>Investigação como método</li>
-            <li>Profundidade em vez de superficialidade</li>
-            <li>Liberdade para pensar e criar</li>
-            <li>Educação como experiência vital e estética</li>
-            <li>Mentoria humanizada</li>
-            <li>Interdisciplinaridade</li>
-            <li>Inclusão, escuta e colaboração</li>
-            <li>Compromisso com a verdade e a ciência</li>
+            <li style={{listStyleType: "disc"}}>Conhecimento pelo prazer</li>
+            <li style={{listStyleType: "disc"}}>Autonomia e autodidatismo</li>
+            <li style={{listStyleType: "disc"}}>Investigação como método</li>
+            <li style={{listStyleType: "disc"}}>Profundidade em vez de superficialidade</li>
+            <li style={{listStyleType: "disc"}}>Liberdade para pensar e criar</li>
+            <li style={{listStyleType: "disc"}}>Educação como experiência vital e estética</li>
+            <li style={{listStyleType: "disc"}}>Mentoria humanizada</li>
+            <li style={{listStyleType: "disc"}}>Interdisciplinaridade</li>
+            <li style={{listStyleType: "disc"}}>Inclusão, escuta e colaboração</li>
+            <li style={{listStyleType: "disc"}}>Compromisso com a verdade e a ciência</li>
           </ul>
         </section>
 
