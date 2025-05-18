@@ -18,24 +18,20 @@
 }
 
 .NousNovaLessons #title h1 {
-  font-size: 2.5rem;
   margin-bottom: 8px;
   color: #f0c040;
 }
 
 .NousNovaLessons #title h3 {
-  font-size: 1.4rem;
   margin: 0;
 }
 
 .NousNovaLessons section h2 {
-  font-size: 1.8rem;
   color: #f0c040;
   margin-top: 30px;
 }
 
-.NousNovaLessons p, .NousNovaLessons ul {
-  font-size: 1.3rem;
+.NousNovaLessons ul {
   margin-top: 10px;
 }
 
@@ -121,8 +117,61 @@
   border-radius: 10px;
 }
 
+.NousNovaLessons .plansBenefits{
+  display: flex;
+  justify-content: center;
+}
+
+.plansBenefits {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 2rem 0;
+  
+}
+
+.planBox {
+  flex: 1;
+  border: 1px solid #514b61;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.planBox:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.planBox h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #f0c040;
+  text-align: center;
+}
+
+.planBox ul {
+  list-style: none;
+  padding: 0;
+}
+
+.planBox ul li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+  color: #fff;
+  background-color: red;
+  font-size: 0.95rem;
+  justify-content: center;
+}
+
+
 @media (max-width: 1000px) {
   .NousNovaLessons{
     padding-bottom: 1000px;
+  }
+  .NousNovaLessons .prices {
+    width: 90%;
   }
 }

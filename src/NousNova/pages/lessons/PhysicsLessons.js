@@ -29,18 +29,6 @@ function PhysicsLessons(){
             </p>
             </section>
 
-            {/* Valores e Planos */}
-            <section>
-            <h2>Planos e Descontos</h2>
-                <p>Padrão por hora - Aula avulsa: R$80,00</p>
-            <ul>
-                <li>Aula experimental: 25% de desconto</li>
-                <li>Plano mensal (4 aulas): 30% de desconto</li>
-                <li>Plano mensal (8 aulas): 45% de desconto</li>
-                <li>Plano mensal (12 aulas): 50% de desconto</li>
-            </ul>
-            </section>
-
             {/* Aulas Online */}
             <section>
             <h2>Aulas Online</h2>
@@ -70,7 +58,7 @@ function PhysicsLessons(){
 
             {/* Chamada para ação */}
             <section id="button" style={{display:"flex",justifyContent:"flex-start"}}>
-                <Link to="/nousNova/private-lessons/prices" target="blank"><button className="card">Agendar</button></Link>
+                <Link to="/nousNova/private-lessons/prices"><button className="card">Planos</button></Link>
             </section>
         </div>
         </div>

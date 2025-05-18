@@ -12,21 +12,19 @@ html, body{
   justify-items: center;
 }
 
-p{
-  font-size: 1.5rem;
-}
+
 /* CARDS */
 .card-link {
   color: inherit;
 }
 
 #navigation-cards {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 2rem;
+  padding: 2rem;
   background-color: #1f1b2a;
   border-radius: 10px;
   border-width: 5px;
@@ -40,13 +38,13 @@ p{
     border: 1px solid #333;
     border-radius: 10px;
     padding: 20px;
-    width: 250px;
+    width: 400px;
     transition: transform 0.3s, border-color 0.3s;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
     color: #f0c040;
-    font-size: 1.3rem;
     justify-content: center;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .card h3 {
@@ -82,10 +80,14 @@ p{
   background-color: #1e1b2a;
   padding: 10px;
   border-radius: 12px;
-  width: 280px;
+  width: 400px;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
   justify-items: center;
+}
+
+.galaxy-card a{
+  width: 50%;
 }
 
 .galaxy-card button{
@@ -95,7 +97,7 @@ p{
     border-radius: 8px;
     transition: transform 0.3s, border-color 0.3s;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
-    font-size: 1.3rem;
+    width: 100%;
 }
 
 .galaxy-card:hover {
@@ -103,12 +105,11 @@ p{
 }
 
 .galaxy-card h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #f0c040;
 }
 
 .galaxy-card p {
-  font-size: 1rem;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -137,15 +138,46 @@ a{
   color: #f0c040;
 }
 
+p{
+  font-size: 1.5rem;
+}
+
 li{
   list-style: none;
+  font-size: 1.3em;
+}
+
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
 }
 
 .flash-error {
   animation: flashRed 0.5s ease-in-out;
 }
 
-
+@media (max-width:1000px) {
+  p{
+    font-size: 1.5rem;
+  }
+  #navigation-cards{
+    width: 80%;
+  }
+  h1{
+  font-size: 2.5rem;
+}
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.75rem;
+  }
+}
 @keyframes flashRed {
   0% { background-color: #ffdddd; }
   50% { background-color: #ff4d4d; }

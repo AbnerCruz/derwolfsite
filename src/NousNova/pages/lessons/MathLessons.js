@@ -29,18 +29,6 @@ function MathLessons(){
             </p>
             </section>
 
-            {/* Valores e Planos */}
-            <section>
-            <h2>Planos e Descontos</h2>
-                <p>Padrão por hora - Aula avulsa: R$50,00</p>
-            <ul>
-                <li>Aula experimental: 25% de desconto</li>
-                <li>Plano mensal (4 aulas): 30% de desconto</li>
-                <li>Plano mensal (8 aulas): 45% de desconto</li>
-                <li>Plano mensal (12 aulas): 50% de desconto</li>
-            </ul>
-            </section>
-
             {/* Aulas Online */}
             <section>
             <h2>Aulas Online</h2>
@@ -61,16 +49,15 @@ function MathLessons(){
 
             {/* Pagamento e Agendamento */}
             <section id="payments">
-            <h2>Pagamento e Agendamento</h2>
+            <h2>Planos e Agendamento</h2>
             <p>
-                O pagamento é feito adiantado e o horário é reservado após o envio do comprovante.
-                Consulte os valores e agende um horário clicando no botão abaixo.
+                Os horários são reservados somente mediante a comprovante de pagamento. Verifique os valores e agende sua aula clicando no botão abaixo
             </p>
             </section>
 
             {/* Chamada para ação */}
             <section id="button" style={{display:"flex",justifyContent:"flex-start"}}>
-                <Link to="/nousNova/private-lessons/prices" target="blank"><button className="card">Agendar</button></Link>
+                <Link to="/nousNova/private-lessons/prices"><button className="card">Planos</button></Link>
             </section>
         </div>
         </div>

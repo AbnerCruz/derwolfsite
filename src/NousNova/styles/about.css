@@ -19,28 +19,20 @@
     align-items: center;
 }
 .NousNovaAbout section h2{
-    font-size: 2rem;
     color: #f0c040;
 }
 .NousNovaAbout #title h1{
     margin-right: 6px;
-    font-size: 3rem;
 }
 
 
 .NousNovaAbout #button{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
 .NousNovaAbout #button .card{
     margin: 10px;
-}
-
-
-
-/* Parágrafos */
-.NousNovaAbout p {
-  font-size: 1.3rem;
 }
 
 @media (max-width: 1000px) {
