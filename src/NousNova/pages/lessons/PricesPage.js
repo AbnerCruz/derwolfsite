@@ -9,12 +9,12 @@ const DISCIPLINES = [
 ];
 
 const PLANS = [
-  { id: 'anual1x', label: 'Plano Anual - 1 aula por semana', discount: 25 },
-  { id: 'anual2x', label: 'Plano Anual - 2 aulas por semana', discount: 30 },
-  { id: 'anual3x', label: 'Plano Anual - 3 aulas por semana', discount: 35 },
-  { id: 'semestral1x', label: 'Plano Semestral - 1 aula por semana', discount: 15 },
-  { id: 'semestral2x', label: 'Plano Semestral - 2 aulas por semana', discount: 20 },
-  { id: 'semestral3x', label: 'Plano Semestral - 3 aulas por semana', discount: 25 },
+  { id: 'anual1x', label: 'Plano Anual - 1 aula por semana', discount: 30 },
+  { id: 'anual2x', label: 'Plano Anual - 2 aulas por semana', discount: 35 },
+  { id: 'anual3x', label: 'Plano Anual - 3 aulas por semana', discount: 40 },
+  { id: 'semestral1x', label: 'Plano Semestral - 1 aula por semana', discount: 20 },
+  { id: 'semestral2x', label: 'Plano Semestral - 2 aulas por semana', discount: 25 },
+  { id: 'semestral3x', label: 'Plano Semestral - 3 aulas por semana', discount: 30 },
   { id: 'mensal1x', label: 'Plano Mensal - 1 aula por semana', discount: 5 },
   { id: 'mensal2x', label: 'Plano Mensal - 2 aulas por semana', discount: 10 },
   { id: 'mensal3x', label: 'Plano Mensal - 3 aulas por semana', discount: 15 },
@@ -71,7 +71,7 @@ function PricesPage() {
                   <h2>{d.label}</h2>
                   <ul>
                     <li>Aula Avulsa: {PriceCalculator(d.basePrice, 0)} hora</li>
-                    <li>Aula Experimental: {PriceCalculator(d.basePrice, 50)} hora</li>
+                    <li>Aula Experimental: {PriceCalculator(d.basePrice, 30)} hora</li>
                     <div id="individualsSolicitation">
                       <a href={d.link} target="_blank" id="individualsSolicitation">
                         <div className="planet-button" id="button">Agendar</div>
