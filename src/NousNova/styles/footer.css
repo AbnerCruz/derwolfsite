@@ -85,4 +85,11 @@
   .NousNova footer {
     bottom: 0;
   }
+
+  .NousNova footer p{
+    font-size: 1.5rem;
+  }
+  .NousNova footer h1, h2, h3{
+    font-size: 2rem;
+  }
 }

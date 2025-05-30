@@ -11,6 +11,7 @@ import NousNovaHome from "./NousNova/pages/Home";
 import NousNovaAbout from "./NousNova/pages/About";
 import NousNovaPrivateLessons from "./NousNova/pages/PrivateLessons";
 import NousNovaCourses from "./NousNova/pages/Courses";
+import NousNovaTeachers from "./NousNova/pages/Teachers"
 
 //Nous Nova Lessons
 import PricesPage from "./NousNova/pages/lessons/PricesPage";
@@ -45,6 +46,7 @@ function App() {
       <Route path="/nousnova" element={<NousNovaLayout />}>
         <Route index element={<NousNovaHome />} />
         <Route path="about" element={<NousNovaAbout />} />
+        <Route path="teachers" element={<NousNovaTeachers />} />
 
         {/* Nous Nova Private Lessons */}
         <Route path="private-lessons" element={<NousNovaPrivateLessons />} />

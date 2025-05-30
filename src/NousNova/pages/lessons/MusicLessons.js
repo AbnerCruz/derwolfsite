@@ -1,4 +1,8 @@
 import "../../styles/privateLessons.css";
+import { teachersArray } from "../Teachers";
+import { TeacherCard } from "../Teachers";
+
+const musicTeachers = teachersArray.filter((teacher) => teacher.disciplines.includes("Música"));
 function MusicLessons(){
     return (
         <div className="HomePageGlobalDiv">
@@ -48,6 +52,18 @@ function MusicLessons(){
             </p>
             </section>
 
+            {/* Professores */}
+            <section className="teachersSection">
+              <h2>Nossos Professores</h2>
+              <div className="card">
+                <div>
+                    {musicTeachers.map((teacher) => (
+                    <TeacherCard key={teacher.name} teacher={teacher} />
+                    ))}
+                </div>
+              </div>
+            </section>
+
             {/* Valores e Planos */}
             <section>
             <h2>Planos e Valores</h2>
@@ -66,14 +82,14 @@ function MusicLessons(){
             <h2>Pagamento e Agendamento</h2>
             <p>
                 O pagamento é feito adiantado e o horário é reservado após o envio do comprovante.
-                Consulte as formas de pagamento no botão abaixo.
+                Entre em contato para mais informações.
             </p>
             </section>
 
             {/* Chamada para ação */}
             <section style={{display:"flex",justifyContent:"flex-start"}}>
-                <a href="https://api.whatsapp.com/send/?phone=5518997954628&text=Ol%C3%A1%21+Eu+gostaria+de+agendar+uma+aula+de+música.&type=phone_number&app_absent=0" target="blank" style={{width:"18%"}}>
-                <button className="card" style={{width:"100%"}}>Agendar</button>
+                <a href="https://api.whatsapp.com/send/?phone=5518997954628&text=Ol%C3%A1%21+Eu+gostaria+de+informações+sobre+as+aulas+de+música.&type=phone_number&app_absent=0" target="blank" style={{width:"18%"}}>
+                <button className="card" style={{width:"100%"}}>Mais Informações</button>
                 </a>
             </section>
         </div>

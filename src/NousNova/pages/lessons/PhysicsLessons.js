@@ -1,5 +1,9 @@
 import "../../styles/privateLessons.css";
 import {Link} from "react-router-dom";
+import { teachersArray } from "../Teachers";
+import { TeacherCard } from "../Teachers";
+
+const physicsTeachers = teachersArray.filter((teacher) => teacher.disciplines.includes("Física"));
 function PhysicsLessons(){
     return (
         <div className="HomePageGlobalDiv">
@@ -45,6 +49,18 @@ function PhysicsLessons(){
                 Alunos com plano mensal têm acesso a suporte exclusivo via WhatsApp (segunda a sexta, 24h),
                 com auxílio em dúvidas, exercícios e atividades. Todo material de apoio é incluso digitalmente.
             </p>
+            </section>
+
+            {/* Professores */}
+            <section className="teachersSection">
+              <h2>Nossos Professores</h2>
+              <div className="card">
+                <div>
+                    {physicsTeachers.map((teacher) => (
+                    <TeacherCard key={teacher.name} teacher={teacher} />
+                    ))}
+                </div>
+              </div>
             </section>
 
             {/* Pagamento e Agendamento */}
