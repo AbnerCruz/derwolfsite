@@ -13,7 +13,7 @@ function Footer() {
             <h4>Redes Sociais</h4>
             <ul>
               <li><a href="https://www.youtube.com/@derwolffisicaplus" target="_blank" rel="noopener noreferrer"><img src="/YoutubeIcon.png" id="icon" />YouTube</a></li>
-              <li><a href="https://www.instagram.com/profabnerofc/" target="_blank" rel="noopener noreferrer"><img src="/InstagramIcon.png" id="icon" />Instagram</a></li>
+              <li><a href="https://www.instagram.com/nous.nova/" target="_blank" rel="noopener noreferrer"><img src="/InstagramIcon.png" id="icon" />Instagram</a></li>
               <li><a href="https://www.facebook.com/profile.php?id=61574434002651" target="_blank" rel="noopener noreferrer"><img src="/FacebookIcon.png" id="icon" />Facebook</a></li>
             </ul>
           </div>
