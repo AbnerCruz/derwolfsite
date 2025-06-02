@@ -4,56 +4,64 @@ const livros = [
     nome: "O Solitário Pastor de Ovelhas",
     descricao: "Ben Ahfkael narra a história de um velho pastor que, buscando consolo nas águas do Sky Mirror, encontra uma jovem misteriosa em uma noite sem estrelas. Silenciosa, ela acolhe sua dor e ouve suas memórias de solidão. Ao amanhecer, ela desaparece de forma sobrenatural, deixando um céu repleto de estrelas e, no coração do velho, a paz que há muito buscava. Uma reflexão sobre saudade, encontros breves e o poder de ser lembrado.",
     arquivo: "/DerwolfBooks/Books/O_Solitario_Pastor_de_Ovelhas.pdf",
-    imagem: "/DerwolfBooks/Books/O_Solitario_Pastor_de_Ovelhas.png"
+    imagem: "/DerwolfBooks/Books/O_Solitario_Pastor_de_Ovelhas.png",
+    disponivel: true,
   },
   {
     id: 2,
     nome: "Uriath Gênese",
     descricao: "Ben Ahfkael, o último cronista dos tempos esquecidos, narra a origem dos elfos e da magia em Uriath. Filhos da Árvore Sagrada, sua raça rompeu o pacto ao consumir o fruto proibido, espalhando poder e desequilíbrio pelo mundo. Entre lendas de deuses em guerra e dragões guardiães, esta é uma história sobre a queda da pureza, o preço da magia e o eterno conflito entre luz e vazio.",
     arquivo: "/DerwolfBooks/Books/Uriath_Genesis.pdf",
-    imagem: "/DerwolfBooks/Books/Uriath_Genesis.png"
+    imagem: "/DerwolfBooks/Books/Uriath_Genesis.png",
+    disponivel: true,
   },
   {
     id: 3,
     nome: "Estrada Para Danfim",
     descricao: "Ben Ahfkael observou a jornada mais cruel não ser a das estradas esburacadas, mas a das almas partidas. Em uma carroça maltratada pelo tempo, cinco viajantes enfrentam o deserto, a sede e os fantasmas de um fracasso passado. Entre solavancos e silêncios cortantes, cada um carrega um peso maior que a poeira de Danfim — culpa, saudade e a sombra de um dragão que lhes roubou mais que um artefato. Às vezes, a estrada mais longa não leva a um lugar, mas ao fundo de si mesmos.",
     arquivo: "/DerwolfBooks/Books/Estrada_Para_Danfim.pdf",
-    imagem: "/DerwolfBooks/Books/Estrada_Para_Danfim.png"
+    imagem: "/DerwolfBooks/Books/Estrada_Para_Danfim.png",
+    disponivel: true,
   },
   {
     id: 4,
     nome: "Fundação de Caryndor",
     descricao: "Ben Ahfkael narra a história de Caryndor, um reino fundado por Caryn Tash Gilkat, que, após perder sua família na guerra, tornou-se escrava, estrategista e finalmente líder de um império. Ela unificou guerreiros bárbaros sob um código de justiça, criando um reino onde o comércio prevalecia e apenas mulheres herdavam o trono. Séculos depois, o reino enfrenta sua destruição diante da invasão de Hakerot, e Ben Ahfkael luta para preservar a memória desse império que pode renascer. A crônica aborda temas como perda, reinvenção e o custo do esquecimento.ue um artefato. Às vezes, a estrada mais longa não leva a um lugar, mas ao fundo de si mesmos.",
     arquivo: "/DerwolfBooks/Books/Fundacao_de_Caryndor.pdf",
-    imagem: "/DerwolfBooks/Books/Fundacao_de_Caryndor.png"
+    imagem: "/DerwolfBooks/Books/Fundacao_de_Caryndor.png",
+    disponivel: true,
   },
   {
     id: 5,
     nome: "O Lago",
     descricao: "Após uma guerra, Ben Ahfkael busca solitude à beira de um lago sob um céu estrelado. Lá, encontra uma mulher misteriosa emergindo das águas, com uma presença quase sagrada. Ele se afasta em respeito, mas, ao retornar ao acampamento, a encontra entre seus companheiros, como se sempre tivesse estado ali. Uma narrativa sobre o silêncio pós-batalha, encontros enigmáticos e o limiar entre o real e o sobrenatural.",
     arquivo: "/DerwolfBooks/Books/O_Lago.pdf",
-    imagem: "/DerwolfBooks/Books/O_Lago.png"
+    imagem: "/DerwolfBooks/Books/O_Lago.png",
+    disponivel: true,
   },
   {
     id: 6,
     nome: "Thyra",
     descricao: "Ben Afkhael narra a história de Thyra Lothbrok, uma jovem guerreira forjada pelos ventos gelados do norte e pelas cicatrizes da perda e da guerra. Filha dos Forodwaith, criada entre nômades e aço, Thyra empunhava armas antes mesmo de dominar as palavras. Após perder a mãe para o inverno e o pai em combate contra mercadores de escravos, sobreviveu sozinha a um massacre — e foi nesse dia que conheceu Eldin, um meio-elfo a quem decidiu proteger. Neste relato, Ben não escreve como historiador, mas como testemunha de uma alma indomável. Thyra odeia a tirania, despreza coroas vazias e luta por justiça com uma fúria que inspira e transforma. Um tributo à coragem bruta e à liberdade conquistada a sangue e aço.",
     arquivo: "/DerwolfBooks/Books/Thyra.pdf",
-    imagem: "/DerwolfBooks/Books/Thyra.png"
+    imagem: "/DerwolfBooks/Books/Thyra.png",
+    disponivel: true,
   },
   {
     id: 7,
     nome: "O Observador",
-    descricao: "Neste conto melancólico e silencioso, Ben Afkhael nos conduz pelos passos de Michel, uma figura enigmática conhecida apenas como O Observador. Condenado a uma existência sem sono, sem fome e sem voz, Michel vaga por Uriath assistindo, impotente, aos fragmentos de humanidade que se revelam diante de seus olhos. Através de cenas simples e brutais — uma criança perdida, um crime doméstico, um gesto de bondade esmagado pela indiferença — o conto mergulha o leitor em uma reflexão sobre a crueldade cotidiana, a omissão social e o peso de enxergar tudo sem jamais poder intervir. Com sua prosa poética e olhar agudo para os detalhes da alma, Ben oferece mais do que uma história: oferece um espelho sombrio do mundo, onde o verdadeiro horror não está nas sombras... mas na normalidade com que as ignoramos.",
+    descricao: "Neste conto melancólico e silencioso, Ben Afkhael nos conduz pelos passos de Michel, uma figura enigmática conhecida apenas como O Observador. Condenado a uma existência sem sono, sem fome e sem voz, Mikhael vaga por Uriath assistindo, impotente, aos fragmentos de humanidade que se revelam diante de seus olhos. Através de cenas simples e brutais — uma criança perdida, um crime doméstico, um gesto de bondade esmagado pela indiferença — o conto mergulha o leitor em uma reflexão sobre a crueldade cotidiana, a omissão social e o peso de enxergar tudo sem jamais poder intervir. Com sua prosa poética e olhar agudo para os detalhes da alma, Ben oferece mais do que uma história: oferece um espelho sombrio do mundo, onde o verdadeiro horror não está nas sombras... mas na normalidade com que as ignoramos.",
     arquivo: "/DerwolfBooks/Books/O_Observador.pdf",
-    imagem: "/DerwolfBooks/Books/O_Observador.png"
+    imagem: "/DerwolfBooks/Books/O_Observador.png",
+    disponivel: true,
   },
   {
     id: 8,
     nome: "A Loba da Névoa",
     descricao: "Neste conto Ben Afkhael narra a saga da jovem princesa Melissa, que faz um pacto sombrio para salvar a vida do pai enfermo. Enfrentando traições, acusações de bruxaria e um destino marcado por sacrifícios, Melissa luta para proteger seu filho e manter viva a esperança em um mundo cheio de magia, dor e mistério. Uma história de coragem, magia e legado que atravessa gerações até sua filha Sabrina, herdeira de um poder único.",
     arquivo: "/DerwolfBooks/Books/A_Loba_da_Nevoa.pdf",
-    imagem: "/DerwolfBooks/Books/A_Loba_da_Nevoa.png"
+    imagem: "/DerwolfBooks/Books/A_Loba_da_Nevoa.png",
+    disponivel: false,
   },
 ];
 

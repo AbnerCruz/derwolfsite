@@ -102,3 +102,16 @@ font-size: 1.6rem;
   background-color: #4f48c4;
 }
 
+.book-link-disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+.book-link-disabled:hover{
+  background-color: #c44848;
+}
