@@ -4,8 +4,8 @@ export const teachersArray = [
     {
         name: "Abner Cruz",
         image: "/teachers/AbnerCruz.png",
-        disciplines: ["Matemática", "Física"],
-        instagram: "https://www.instagram.com/profabnerofc/"
+        disciplines: ["Matemática"],
+        instagram: "https://www.instagram.com/nous.prof_abner/"
     },
     {
         name: "Renata Nóbrega",

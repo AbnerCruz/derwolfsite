@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DerwolfGroupLayout from "./Layouts/DerwolfGroupLayout";
 import NousNovaLayout from "./Layouts/NousNovaLayout";
+import DerwolfBooksLayout from "./Layouts/DerwolfBooksLayout"
 
 //Derwolf Group
 import DerwolfGroupHome from "./DerwolfGroup/pages/Home";
@@ -29,6 +30,10 @@ import MatematicaParaConcursos from "./NousNova/pages/courses/Math/solarSystems/
 
 //Nous Nova Solar Systems Planets
 import PlanetPage from "./NousNova/pages/courses/Math/solarSystems/planets/PlanetsLayout";
+
+//Derwolf Books
+import DerwolfBooksHome from "./DerwolfBooks/pages/Home"
+import BooksPage from "./DerwolfBooks/pages/BooksPage";
 
 
 
@@ -68,6 +73,12 @@ function App() {
 
 
 
+      </Route>
+
+      {/* Derwolf Books */}
+      <Route path="/derwolfbooks" element={<DerwolfBooksLayout />}>
+        <Route index element={<DerwolfBooksHome/>} />
+        <Route path="books/:id" element={<BooksPage />} />
       </Route>
     </Routes>
     </BrowserRouter>

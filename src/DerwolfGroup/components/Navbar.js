@@ -7,6 +7,7 @@ function Navbar() {
       <nav>
         <ul>
           <li><Link to="/nousNova">Nous Nova</Link></li>
+          <li><Link to="/derwolfbooks">Derwolf Books</Link></li>
           <li><Link to="/">Derwolf Entertainment</Link></li>
         </ul>
       </nav>
