@@ -15,7 +15,7 @@ function BooksPage() {
 
       <div className="pdf-viewer">
         <iframe
-          src={book.arquivo}
+          src={`${book.arquivo}?v=${Date.now()}`}
           width="100%"
           height="600px"
           title="Leitor PDF"
