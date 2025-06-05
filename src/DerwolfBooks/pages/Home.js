@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import books from "../Books";
 import "../styles/home.css";
-
+const sortedBooks = [
+  ...books.filter(b => b.disponivel).sort((a, b) => b.nota - a.nota),
+  ...books.filter(b => !b.disponivel).sort((a, b) => b.nota - a.nota),
+];
 function HomePage() {
   return (
     <div className="home-container">
@@ -9,7 +12,7 @@ function HomePage() {
       <p className="home-subtitle">Escolha um livro para ler ou baixar.</p>
 
       <div className="books-grid">
-        {books.map((livro) => (
+        {sortedBooks.map((livro) => (
           <div key={livro.id} className="book-card">
             <img
               src={livro.imagem}
@@ -19,12 +22,10 @@ function HomePage() {
             />
             <h2 className="book-title">{livro.nome}</h2>
             <p className="book-description">{livro.descricao}</p>
+            <p className="book-rating">Nota: {livro.nota} / 10</p>
 
             {livro.disponivel ? (
-              <Link
-                to={`/derwolfbooks/books/${livro.id}`}
-                className="book-link"
-              >
+              <Link to={`/derwolfbooks/books/${livro.id}`} className="book-link">
                 Ler online
               </Link>
             ) : (
